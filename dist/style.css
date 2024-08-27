@@ -665,9 +665,9 @@ video {
   margin-right: auto;
 }
 
-.my-14 {
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .my-24 {
@@ -701,8 +701,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-\[17rem\] {
-  margin-bottom: 17rem;
+.mb-\[5rem\] {
+  margin-bottom: 5rem;
 }
 
 .mt-10 {
@@ -737,8 +737,8 @@ video {
   margin-top: 2rem;
 }
 
-.mb-\[5em\] {
-  margin-bottom: 5em;
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .flex {
@@ -753,44 +753,44 @@ video {
   display: none;
 }
 
-.h-1\/2 {
-  height: 50%;
-}
-
 .h-2\/5 {
   height: 40%;
+}
+
+.h-\[45\%\] {
+  height: 45%;
 }
 
 .h-screen {
   height: 100vh;
 }
 
+.h-\[50\%\] {
+  height: 50%;
+}
+
 .w-4\/5 {
   width: 80%;
 }
 
-.w-96 {
-  width: 24rem;
+.w-\[18rem\] {
+  width: 18rem;
 }
 
-.w-\[100\%\] {
-  width: 100%;
+.w-\[20rem\] {
+  width: 20rem;
+}
+
+.w-\[23rem\] {
+  width: 23rem;
 }
 
 .w-\[24rem\] {
   width: 24rem;
 }
 
-.w-\[26rem\] {
-  width: 26rem;
-}
-
 .w-\[75\%\] {
   width: 75%;
-}
-
-.w-\[90\%\] {
-  width: 90%;
 }
 
 .w-\[97\%\] {
@@ -833,6 +833,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -841,20 +845,12 @@ video {
   gap: 1rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .gap-7 {
   gap: 1.75rem;
 }
 
 .gap-9 {
   gap: 2.25rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .gap-x-6 {
@@ -973,6 +969,11 @@ video {
   padding: 0.75rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1040,9 +1041,8 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-\[1\.6rem\] {
+  font-size: 1.6rem;
 }
 
 .text-lg {
@@ -1053,6 +1053,11 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-medium {
@@ -1067,12 +1072,20 @@ video {
   font-style: italic;
 }
 
+.leading-\[2\.5rem\] {
+  line-height: 2.5rem;
+}
+
+.leading-\[3rem\] {
+  line-height: 3rem;
+}
+
 .tracking-\[\.11em\] {
   letter-spacing: .11em;
 }
 
-.tracking-\[\.3em\] {
-  letter-spacing: .3em;
+.tracking-\[\.2rem\] {
+  letter-spacing: .2rem;
 }
 
 .tracking-\[0\.4rem\] {
@@ -1109,8 +1122,8 @@ video {
 }
 
 p {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: hsl(229 8% 60% / var(--tw-text-opacity));
 }
@@ -1131,8 +1144,6 @@ a:hover {
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: hsl(231 69% 60% / var(--tw-bg-opacity));
-  padding-left: 1rem;
-  padding-right: 1rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   --tw-text-opacity: 1;
@@ -1200,7 +1211,7 @@ a:hover {
   line-height: 1.5rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .accordion-content {
     width: 30rem;
   }
@@ -1247,12 +1258,14 @@ a:hover {
 }
 
 .feature-tab {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
   .feature-tab {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
   }
@@ -1262,8 +1275,7 @@ a:hover {
   border-bottom-width: 4px;
   --tw-border-opacity: 1;
   border-color: hsl(0 94% 66% / var(--tw-border-opacity));
-  --tw-text-opacity: 1;
-  color: hsl(0 94% 66% / var(--tw-text-opacity));
+  font-weight: 700;
 }
 
 .tab-content {
@@ -1302,11 +1314,6 @@ a:hover {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-softRed:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 94% 66% / var(--tw-bg-opacity));
-}
-
 .hover\:text-softRed:hover {
   --tw-text-opacity: 1;
   color: hsl(0 94% 66% / var(--tw-text-opacity));
@@ -1318,28 +1325,93 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .md\:mb-\[14rem\] {
-    margin-bottom: 14rem;
+  .md\:my-14 {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
   }
 
   .md\:mb-\[10rem\] {
     margin-bottom: 10rem;
   }
 
+  .md\:h-\[55\%\] {
+    height: 55%;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
+  }
+
   .md\:w-\[10rem\] {
     width: 10rem;
+  }
+
+  .md\:w-\[16rem\] {
+    width: 16rem;
   }
 
   .md\:w-\[21rem\] {
     width: 21rem;
   }
 
+  .md\:w-\[24rem\] {
+    width: 24rem;
+  }
+
+  .md\:w-\[30rem\] {
+    width: 30rem;
+  }
+
   .md\:w-\[32rem\] {
     width: 32rem;
   }
 
-  .md\:text-\[2\.7rem\] {
-    font-size: 2.7rem;
+  .md\:w-\[38rem\] {
+    width: 38rem;
+  }
+
+  .md\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .md\:w-\[83\%\] {
+    width: 83%;
+  }
+
+  .md\:w-\[65\%\] {
+    width: 65%;
+  }
+
+  .md\:w-\[29rem\] {
+    width: 29rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:tracking-\[\.4rem\] {
+    letter-spacing: .4rem;
   }
 }
 
@@ -1368,6 +1440,10 @@ a:hover {
     margin-top: 2rem;
   }
 
+  .lg\:mb-\[10rem\] {
+    margin-bottom: 10rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1392,24 +1468,12 @@ a:hover {
     width: 40%;
   }
 
-  .lg\:w-4\/5 {
-    width: 80%;
-  }
-
-  .lg\:w-5\/6 {
-    width: 83.333333%;
+  .lg\:w-96 {
+    width: 24rem;
   }
 
   .lg\:w-\[24rem\] {
     width: 24rem;
-  }
-
-  .lg\:w-\[30rem\] {
-    width: 30rem;
-  }
-
-  .lg\:w-\[32rem\] {
-    width: 32rem;
   }
 
   .lg\:w-\[38\%\] {
@@ -1418,6 +1482,18 @@ a:hover {
 
   .lg\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .lg\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .lg\:w-\[83\%\] {
+    width: 83%;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60%;
   }
 
   .lg\:grid-cols-3 {
@@ -1445,6 +1521,10 @@ a:hover {
     text-align: left;
   }
 
+  .lg\:text-\[2\.7rem\] {
+    font-size: 2.7rem;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1455,7 +1535,15 @@ a:hover {
     line-height: 2.25rem;
   }
 
-  .lg\:tracking-\[\.4em\] {
-    letter-spacing: .4em;
+  .lg\:text-\[1\.6rem\] {
+    font-size: 1.6rem;
+  }
+
+  .lg\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
+  }
+
+  .lg\:text-\[1\.7rem\] {
+    font-size: 1.7rem;
   }
 }

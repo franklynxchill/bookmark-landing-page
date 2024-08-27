@@ -19,7 +19,7 @@
 @tailwind utilities;
 
 p {
-  @apply text-grayishBlue text-xl lg:text-base;
+  @apply text-grayishBlue text-base lg:text-base;
 }
 
 a:hover {
@@ -28,7 +28,7 @@ a:hover {
 
 
 .btn {
-  @apply bg-softBlue text-white px-4 py-3 rounded-lg hover:text-softBlue hover:bg-transparent hover:border-softBlue hover:border-2;
+  @apply bg-softBlue text-white py-3 rounded-lg hover:text-softBlue hover:bg-transparent hover:border-softBlue hover:border-2 ;
 }
 
 .btn-1 {
@@ -41,7 +41,7 @@ a:hover {
 }
 
 .accordion-content {
-  @apply text-left w-[22.5rem]  lg:w-[30rem] text-base pb-6 hidden; 
+  @apply text-left w-[22.5rem]  md:w-[30rem] text-base pb-6 hidden; 
 }
 
 .accordion-heading::after {
@@ -81,11 +81,11 @@ a:hover {
 }
 
 .feature-tab {
-  @apply  py-8 md:px-12 
+  @apply  py-4 md:py-8 md:px-12 
 }
 
 .tab-active {
-  @apply  text-softRed border-softRed border-b-4
+  @apply  font-bold border-softRed border-b-4
 }
 
 

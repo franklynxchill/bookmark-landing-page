@@ -53,7 +53,7 @@ const errorIcon = document.getElementById('error-icon');
 
 email.addEventListener('input', ()=> {
   
-  if(email.value.length == ""){
+  if(!email.value.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
     errorIcon.style.display = 'block';
     error.style.display = 'block';
     inputGroup.style.borderColor = 'hsl(0, 94%, 66%)';
