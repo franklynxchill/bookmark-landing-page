@@ -41,7 +41,7 @@ a:hover {
 }
 
 .accordion-content {
-  @apply text-left w-[22.5rem]  md:w-[30rem] text-base pb-6 hidden; 
+  @apply text-left w-[20rem] tracking-[.15px] text-sm  md:w-[30rem] md:text-base pb-6 hidden; 
 }
 
 .accordion-heading::after {
