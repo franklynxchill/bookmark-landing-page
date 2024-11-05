@@ -949,6 +949,11 @@ video {
   background-color: transparent;
 }
 
+.bg-orange-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
 .bg-bgDots {
   background-image: url('/assets/images/bg-dots.svg');
 }
@@ -1017,6 +1022,10 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
 }
 
 .text-left {
