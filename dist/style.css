@@ -717,12 +717,12 @@ video {
   margin-top: 3rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
 }
 
 .mt-4 {
@@ -739,18 +739,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
-}
-
-.mt-44 {
-  margin-top: 11rem;
-}
-
-.mt-28 {
-  margin-top: 7rem;
 }
 
 .flex {
@@ -793,12 +781,12 @@ video {
   width: 20rem;
 }
 
-.w-\[23rem\] {
-  width: 23rem;
+.w-\[22rem\] {
+  width: 22rem;
 }
 
-.w-\[24rem\] {
-  width: 24rem;
+.w-\[23rem\] {
+  width: 23rem;
 }
 
 .w-\[75\%\] {
@@ -807,10 +795,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[22rem\] {
-  width: 22rem;
 }
 
 .flex-1 {
@@ -959,16 +943,6 @@ video {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
-.bg-orange-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
 }
 
 .bg-bgDots {
@@ -1345,6 +1319,16 @@ a:hover {
   outline-offset: 2px;
 }
 
+@media (min-width: 500px) {
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:my-14 {
     margin-top: 3.5rem;
@@ -1447,10 +1431,6 @@ a:hover {
 
   .lg\:block {
     display: block;
-  }
-
-  .lg\:flex {
-    display: flex;
   }
 
   .lg\:hidden {
