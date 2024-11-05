@@ -6,11 +6,13 @@ const accordionHeading = document.querySelectorAll(".accordion-heading");
 const accordionContent = document.querySelectorAll('.accordion-content');
 
 hamburger.addEventListener('click', () => {
-  menuBtn.classList.toggle('display')
+  menuBtn.classList.toggle('display');
+  hamburger.classList.add('hidden');
 })
 
 menuClose.addEventListener('click', () => {
   menuBtn.classList.remove('display');
+  hamburger.classList.remove('hidden');
 })
 
 //feature
